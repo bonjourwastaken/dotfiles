@@ -1,0 +1,21 @@
+theme = "tokyonight"
+
+[editor]
+mouse = false
+middle-click-paste = false
+cursorline = true
+completion-trigger-len = 1
+color-modes = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "position", "position-percentage", "file-encoding", "file-line-ending"]
+separator = "|"
+
+[editor.lsp]
+display-messages = true
+display-signature-help-docs = false
+
+[editor.cursor-shape]
+insert = "bar"
