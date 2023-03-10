@@ -1,8 +1,8 @@
-# dotfiles
+# bonjour's dotfiles
 My set of configuration files
 
 ## Quick setup
-The easiest way to get going is running the `apply.sh` script from the repository root like so:
+The easiest way to get started is to run the `apply.sh` script from the repository root like so:
 
 ```
 chmod +x apply.sh
